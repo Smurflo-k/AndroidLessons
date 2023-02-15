@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">control_lesson1</string>
+    <string name="first_string"><b>Список тех, кто мне звонил 16.02.23</b></string>
+    <string name="friend">Друг Фаиль</string>
+    <string name="num1">+7-946-52</string>
+    <string name="mother_dimaser">Враг Ника</string>
+    <string name="num2">+7-946-53</string>
+    <string name="dog">Собака</string>
+    <string name="num3">+7-946-54</string>
+</resources>
