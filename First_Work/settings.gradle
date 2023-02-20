@@ -16,3 +16,4 @@ rootProject.name = "lesson1"
 include ':app'
 include ':task_four'
 include ':control_lesson1'
+include ':task_five'
