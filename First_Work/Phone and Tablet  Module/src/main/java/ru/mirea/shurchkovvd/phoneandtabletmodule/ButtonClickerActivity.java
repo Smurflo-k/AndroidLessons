@@ -13,7 +13,7 @@ public class ButtonClickerActivity extends AppCompatActivity {
     private TextView tvOut;
     private Button btnWhoAmI;
     private Button btnItIsNotMe;
-
+    private CheckBox checkBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,20 +22,24 @@ public class ButtonClickerActivity extends AppCompatActivity {
         tvOut = findViewById(R.id.tvOut);
         btnWhoAmI = findViewById(R.id.btnWhoAmI);
         btnItIsNotMe = findViewById(R.id.btnItIsNotMe);
+        checkBox = findViewById(R.id.checkBox);
 
         View.OnClickListener oclBtnWhoAmI = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvOut.setText("Мой номер по списку № 27");
+                tvOut.setText(R.string.tvout1);
+                checkBox.setChecked(true);
+                checkBox.setText(R.string.cb_open);
             }
-
         };
         btnWhoAmI.setOnClickListener(oclBtnWhoAmI);
-
     }
     public void onMyButtonClick(View w)
     {
-        Toast.makeText(this, "ItIsNotMe", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Еще 1 способ! ItIsNotMe", Toast.LENGTH_SHORT).show();
+        tvOut.setText(R.string.tvout2);
+        checkBox.setChecked(true);
+        checkBox.setText(R.string.cb_open);
     }
 
     //public void onCheckboxClicked(View view) {

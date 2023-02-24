@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ButtonClicker</string>
+    <string name="checkbox_string">Нажата ли кнопка?</string>
+    <string name="itisnotme">ItIsNotMe</string>
+    <string name="whoami">WhoAmI</string>
+    <string name="tvout2">Включена кнопка itisnotme</string>
+    <string name="tvout1">Мой номер по списку № 27</string>
+    <string name="cb_open">Включено</string>
 </resources>
