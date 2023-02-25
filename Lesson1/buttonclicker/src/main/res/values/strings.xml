@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ButtonClicker</string>
+    <string name="name">Шурчков В.Д.</string>
+    <string name="whoami">WhoAmI</string>
+    <string name="itisnotme">ItIsNotMe</string>
+    <string name="checkbox1">Включена ли кнопка?</string>
+</resources>
