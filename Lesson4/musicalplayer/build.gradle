@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.shurchkov.lesson4'
+    namespace 'ru.mirea.shurchkov.musicalplayer'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.shurchkov.lesson4"
+        applicationId "ru.mirea.shurchkov.musicalplayer"
         minSdk 26
         targetSdk 33
         versionCode 1
@@ -18,6 +18,10 @@ android {
 
     buildFeatures {
         viewBinding true
+    }
+
+    viewBinding {
+        enabled= true
     }
 
     buildTypes {
