@@ -16,3 +16,4 @@ rootProject.name = "Lesson4"
 include ':app'
 include ':musicalplayer'
 include ':thread'
+include ':data_thread'
