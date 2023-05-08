@@ -32,4 +32,15 @@
         android:name="ru.mirea.shurchkov.mireaproject.DataFragmen"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.shurchkov.mireaproject.AudioRecorderFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+
+    <fragment
+        android:id="@+id/nav_cam"
+        android:name="ru.mirea.shurchkov.mireaproject.CameraFragmen"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
 </navigation>
