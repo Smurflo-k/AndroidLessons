@@ -18,19 +18,19 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Objects;
 
-import ru.mirea.shurchkov.firebaseauth.databinding.EnterPasMainBinding;
+import ru.mirea.shurchkov.firebaseauth.databinding.EnterpasactivityBinding;
 
 public class EnterPas extends AppCompatActivity {
 
     private static final String TAG = EnterPas.class.getSimpleName();
-    private EnterPasMainBinding binding;
+    private EnterpasactivityBinding binding;
     // START declare_auth
     private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = EnterPasMainBinding.inflate(getLayoutInflater());
+        binding = EnterpasactivityBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         mAuth = FirebaseAuth.getInstance();
         binding.signinbutton.setOnClickListener(new View.OnClickListener() {
