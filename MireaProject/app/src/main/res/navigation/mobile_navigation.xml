@@ -40,7 +40,12 @@
 
     <fragment
         android:id="@+id/nav_cam"
-        android:name="ru.mirea.shurchkov.mireaproject.CameraFragmen"
+        android:name="ru.mirea.shurchkov.mireaproject.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_zavedenia"
+        android:name="ru.mirea.shurchkov.mireaproject.ZavedeniaFragment"
+        android:label="fragment_zavedenia"
+        tools:layout="@layout/fragment_zavedenia" />
 </navigation>
