@@ -25,9 +25,9 @@
             android:icon="@android:drawable/ic_lock_idle_lock"
             android:title="@string/data" />
         <item
-            android:id="@+id/nav_cam"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="My camera" />
+            android:id="@+id/nav_compos"
+            android:icon="@drawable/ic_menu_compass"
+            android:title="My compos ^^" />
         <item
             android:id="@+id/nav_audio"
             android:icon="@android:drawable/ic_btn_speak_now"

@@ -32,20 +32,19 @@
         android:name="ru.mirea.shurchkov.mireaproject.DataFragmen"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
-<!--    <fragment-->
-<!--        android:id="@+id/nav_audio"-->
-<!--        android:name="ru.mirea.shurchkov.mireaproject.AudioRecorderFragment"-->
-<!--        android:label="fragment_audio"-->
-<!--        tools:layout="@layout/fragment_audio" />-->
-
-<!--    <fragment-->
-<!--        android:id="@+id/nav_cam"-->
-<!--        android:name="ru.mirea.shurchkov.mireaproject.CameraFragment"-->
-<!--        android:label="fragment_camera"-->
-<!--        tools:layout="@layout/fragment_camera" />-->
-<!--    <fragment-->
-<!--        android:id="@+id/nav_zavedenia"-->
-<!--        android:name="ru.mirea.shurchkov.mireaproject.ZavedeniaFragment"-->
-<!--        android:label="fragment_zavedenia"-->
-<!--        tools:layout="@layout/fragment_zavedenia" />-->
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.shurchkov.mireaproject.AudioFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_compos"
+        android:name="ru.mirea.shurchkov.mireaproject.CompassFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_zavedenia"
+        android:name="ru.mirea.shurchkov.mireaproject.OpenMapActivity"
+        android:label="fragment_zavedenia"
+        tools:layout="@layout/fragment_map" />
 </navigation>
