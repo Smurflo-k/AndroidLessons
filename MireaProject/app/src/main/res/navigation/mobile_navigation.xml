@@ -45,10 +45,8 @@
     <fragment
         android:id="@+id/nav_zavedenia"
         android:name="ru.mirea.shurchkov.mireaproject.MapFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-<!--        android:label="fragment_zavedenia"-->
-<!--        tools:layout="@layout/fragment_map" />-->
+        android:label="fragment_zavedenia"
+        tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/nav_files"
         android:name="ru.mirea.shurchkov.mireaproject.FilesFragment"

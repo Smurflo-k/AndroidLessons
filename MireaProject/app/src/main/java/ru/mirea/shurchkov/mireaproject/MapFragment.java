@@ -2,14 +2,12 @@ package ru.mirea.shurchkov.mireaproject;
 
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.yandex.mapkit.MapKitFactory;
 import com.yandex.mapkit.geometry.Point;
-import com.yandex.mapkit.map.Map;
-import com.yandex.mapkit.map.PlacemarkMapObject;
 import com.yandex.mapkit.mapview.MapView;
-import com.yandex.runtime.image.ImageProvider;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import ru.mirea.shurchkov.mireaproject.databinding.FragmentMapBinding;
 
@@ -24,6 +22,7 @@ public class MapFragment extends AppCompatActivity{
             (ROUTE_START_LOCATION.getLongitude() + ROUTE_END_LOCATION.getLongitude()) /
                     2);
     private MapView mapView;
+    private int[] colors = {0xFFFF0000, 0xFF00FF00, 0x00FFBBBB, 0xFF0000FF};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,19 +32,7 @@ public class MapFragment extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_map);
         mapView = findViewById(R.id.mapView);
-        Map map = mapView.getMap();
-
-
-        PlacemarkMapObject redSquareMarker = map.getMapObjects().addPlacemark(new Point(55.753930, 37.620795));
-        redSquareMarker.setIcon(ImageProvider.fromResource(this,  org.osmdroid.library.R.drawable.osm_ic_follow_me_on));
-        redSquareMarker.setText("Красная площадь");
-
-        PlacemarkMapObject vorobevyGoryMarker = map.getMapObjects().addPlacemark(new Point(55.710906,  37.553295));
-        vorobevyGoryMarker.setIcon(ImageProvider.fromResource(this,  org.osmdroid.library.R.drawable.osm_ic_follow_me_on));
-        vorobevyGoryMarker.setText("Воробьевы горы");
-
     }
-
 
     @Override
     protected void onStop() {
