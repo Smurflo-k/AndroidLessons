@@ -41,10 +41,12 @@
         android:id="@+id/nav_compos"
         android:name="ru.mirea.shurchkov.mireaproject.CompassFragment"
         android:label="fragment_audio"
-        tools:layout="@layout/fragment_audio" />
+        tools:layout="@layout/fragment_compass" />
     <fragment
         android:id="@+id/nav_zavedenia"
-        android:name="ru.mirea.shurchkov.mireaproject.OpenMapActivity"
-        android:label="fragment_zavedenia"
-        tools:layout="@layout/fragment_map" />
+        android:name="ru.mirea.shurchkov.mireaproject.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--        android:label="fragment_zavedenia"-->
+<!--        tools:layout="@layout/fragment_map" />-->
 </navigation>
