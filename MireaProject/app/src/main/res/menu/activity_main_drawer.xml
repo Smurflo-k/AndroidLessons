@@ -36,5 +36,15 @@
             android:id="@+id/nav_zavedenia"
             android:icon="@drawable/ic_menu_mapmode"
             android:title="Interesting zavedenia)" />
+
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="fragment_file" />
+
+        <item
+            android:id="@+id/nav_save_files"
+            android:icon="@drawable/center"
+            android:title="fragment_save" />
     </group>
 </menu>
