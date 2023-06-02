@@ -43,11 +43,6 @@
         android:label="fragment_audio"
         tools:layout="@layout/fragment_compass" />
     <fragment
-        android:id="@+id/nav_zavedenia"
-        android:name="ru.mirea.shurchkov.mireaproject.MapActivity"
-        android:label="fragment_zavedenia"
-        tools:layout="@layout/activity_map" />
-    <fragment
         android:id="@+id/nav_files"
         android:name="ru.mirea.shurchkov.mireaproject.FilesFragment"
         android:label="fragment_files"
@@ -57,4 +52,9 @@
         android:name="ru.mirea.shurchkov.mireaproject.SaveFileFragment"
         android:label="fragment_save_file"
         tools:layout="@layout/fragment_save_file" />
+    <fragment
+        android:id="@+id/nav_institution"
+        android:name="ru.mirea.shurchkov.mireaproject.InstitutionFragment"
+        android:label="fragment_institution"
+        tools:layout="@layout/fragment_institution" />
 </navigation>

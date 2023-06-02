@@ -12,7 +12,6 @@ import ru.mirea.shurchkov.mireaproject.databinding.ActivityMapBinding;
 
 public class MapActivity extends AppCompatActivity{
 
-    private ActivityMapBinding binding;
     private final String MAPKIT_API_KEY = "bcdc08a4-7576-4d94-a901-0e51a387228c";
     private final Point ROUTE_START_LOCATION = new Point(55.584777, 37.903695);
     private final Point ROUTE_END_LOCATION = new Point(55.769008, 37.644612);

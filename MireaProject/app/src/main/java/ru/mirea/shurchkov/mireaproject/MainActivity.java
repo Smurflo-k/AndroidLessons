@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.nav_brouser,R.id.nav_audio,R.id.nav_compos,R.id.nav_files,R.id.nav_save_files,R.id.nav_zavedenia)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.nav_brouser,R.id.nav_audio,R.id.nav_compos,R.id.nav_files,R.id.nav_institution)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);

@@ -42,7 +42,7 @@
             android:icon="@drawable/center"
             android:title="fragment_save" />
         <item
-            android:id="@+id/nav_zavedenia"
+            android:id="@+id/nav_institution"
             android:icon="@drawable/ic_menu_mapmode"
             android:title="Interesting zavedenia)" />
     </group>
