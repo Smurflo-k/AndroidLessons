@@ -30,7 +30,6 @@ import ru.mirea.shurchkov.mireaproject.databinding.FragmentInstitutionBinding;
 
 public class InstitutionFragment extends Fragment {
     private MapView mapView = null;
-    private final String MAPKIT_API_KEY = "bcdc08a4-7576-4d94-a901-0e51a387228c";
     private FragmentInstitutionBinding binding;
 
     private MyLocationNewOverlay locationNewOverlay;

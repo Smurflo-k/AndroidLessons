@@ -1,19 +1,18 @@
 package ru.mirea.shurchkov.mireaproject;
 
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.yandex.mapkit.MapKitFactory;
 import com.yandex.mapkit.geometry.Point;
 import com.yandex.mapkit.mapview.MapView;
 
-import androidx.appcompat.app.AppCompatActivity;
+import ru.mirea.shurchkov.mireaproject.databinding.ActivityMapBinding;
 
-import ru.mirea.shurchkov.mireaproject.databinding.FragmentMapBinding;
+public class MapActivity extends AppCompatActivity{
 
-public class MapFragment extends AppCompatActivity{
-
-    private FragmentMapBinding binding;
+    private ActivityMapBinding binding;
     private final String MAPKIT_API_KEY = "bcdc08a4-7576-4d94-a901-0e51a387228c";
     private final Point ROUTE_START_LOCATION = new Point(55.584777, 37.903695);
     private final Point ROUTE_END_LOCATION = new Point(55.769008, 37.644612);
@@ -30,7 +29,7 @@ public class MapFragment extends AppCompatActivity{
         MapKitFactory.initialize(this);
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_map);
+        setContentView(R.layout.activity_map);
         mapView = findViewById(R.id.mapView);
     }
 
